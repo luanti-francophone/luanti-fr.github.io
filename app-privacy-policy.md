@@ -1,9 +1,9 @@
 ---
-title: Luanti Privacy Policy
-description: Privacy policy for the Luanti application.
+title: Politique de Confidentialité de Luanti
+description: Politique de confidentialité pour l'application Luanti.
 small: |
-  Last updated: 2024-08-17
-  (<a href="https://github.com/minetest/minetest.github.io/commits/master/app-privacy-policy.md">View updates</a>)
+  Dernière mise à jour : 17 août 2024
+  (<a href="https://github.com/minetest/minetest.github.io/commits/master/app-privacy-policy.md">Voir les modifications</a>)
 layout: page_subtitle
 ---
 
@@ -13,165 +13,136 @@ layout: page_subtitle
 	}
 </style>
 
-Luanti may connect to the following services during its operation:
+Luanti peut se connecter aux services suivants pendant son fonctionnement :
 
-* The main website (www.minetest.net): used to get the most recent version
-* The server list: used to load the server list in "Play Online"
-* ContentDB: used to install/update content in the main menu
-* Game servers: third-party servers when playing online
+* Le site principal (www.minetest.net) : utilisé pour obtenir la version la plus récente.
+* La liste des serveurs : utilisée pour charger la liste des serveurs dans "Jouer en ligne".
+* ContentDB : utilisé pour installer/mettre à jour du contenu dans le menu principal.
+* Serveurs de jeu : serveurs tiers lors de parties en ligne.
 
-Note: this policy only applies to the Luanti application, accessing the
-mentioned services directly using a web browser is not covered.
+Note : cette politique s'applique uniquement à l'application Luanti. L'accès aux services mentionnés via un navigateur web n'est pas couvert.
 
-### Table of contents
+### Table des matières
 
-- [Loading server list](#loading-server-list)
-  - [Information collected](#information-collected)
-  - [How it is used](#how-it-is-used)
-  - [Who has access](#who-has-access)
-  - [Period of retention](#period-of-retention)
-  - [Location](#location)
+- [Chargement de la liste des serveurs](#chargement-de-la-liste-des-serveurs)
+  - [Informations collectées](#informations-collectees)
+  - [Utilisation](#utilisation)
+  - [Accès aux données](#acces-aux-donnees)
+  - [Période de rétention](#periode-de-retention)
+  - [Localisation](#localisation)
 - [ContentDB](#contentdb)
-  - [Information collected](#information-collected-1)
-  - [How it is used](#how-it-is-used-1)
-  - [Who has access](#who-has-access-1)
-  - [Period of retention](#period-of-retention-1)
-  - [Location](#location-1)
-  - [Removal requests](#removal-requests)
-- [Version checking](#version-checking)
-  - [Information collected](#information-collected-2)
-  - [How it is used](#how-it-is-used-2)
-- [Online play](#online-play)
-- [Third parties](#third-parties)
-- [Future changes to privacy policy](#future-changes-to-privacy-policy)
+  - [Informations collectées](#informations-collectees-1)
+  - [Utilisation](#utilisation-1)
+  - [Accès aux données](#acces-aux-donnees-1)
+  - [Période de rétention](#periode-de-retention-1)
+  - [Localisation](#localisation-1)
+  - [Demandes de suppression](#demandes-de-suppression)
+- [Vérification des versions](#verification-des-versions)
+  - [Informations collectées](#informations-collectees-2)
+  - [Utilisation](#utilisation-2)
+- [Jeu en ligne](#jeu-en-ligne)
+- [Tiers](#tiers)
+- [Modifications futures de la politique de confidentialité](#modifications-futures-de-la-politique-de-confidentialite)
 
 
-## Loading server list
+## Chargement de la liste des serveurs
 
-### Information collected
+### Informations collectées
 
-When you open the Play Online tab, Luanti will request the server list.
-The following information will be transferred or included:
+Lorsque vous ouvrez l'onglet Jouer en ligne, Luanti demandera la liste des serveurs. Les informations suivantes seront transmises ou incluses :
 
-* IP address
-* Luanti version
-* Platform and Operating System
+* Adresse IP
+* Version de Luanti
+* Plateforme et système d'exploitation
 
-### How it is used
+### Utilisation
 
-HTTP requests are logged to aid with debugging, development and user
-support. They may also be used to generate anonymized, aggregated user statistics.
+Les requêtes HTTP sont enregistrées pour aider au débogage, au développement et au support utilisateur. Elles peuvent également être utilisées pour générer des statistiques anonymisées et agrégées.
 
-### Who has access
+### Accès aux données
 
-sfan5 runs the server list and has access to the logs. Logs may be shared with
-others to aid with debugging, user support, or combating abuse.
+sfan5 gère la liste des serveurs et a accès aux journaux. Les journaux peuvent être partagés avec d'autres pour aider au débogage, au support utilisateur ou à la lutte contre les abus.
 
-### Period of retention
+### Période de rétention
 
-Logged HTTP requests are stored for up to 3 months.
+Les requêtes HTTP enregistrées sont conservées pendant une période maximale de 3 mois.
 
-### Location
+### Localisation
 
-The server list is currently located in the Netherlands.
-
+La liste des serveurs est actuellement hébergée aux Pays-Bas.
 
 ## ContentDB
 
-You can find more information on
-[ContentDB's privacy policy](https://content.minetest.net/privacy_policy/).
+Vous pouvez trouver plus d'informations sur
+[la politique de confidentialité de ContentDB](https://content.minetest.net/privacy_policy/).
 
-### Information collected
+### Informations collectées
 
-Requests to [ContentDB](https://content.minetest.net) will be made in the main
-menu when using the ContentDB feature. This includes checking for updates when
-you have packages from ContentDB installed. The following information will be
-transferred or included:
+Des requêtes vers [ContentDB](https://content.minetest.net) seront effectuées dans le menu principal lors de l'utilisation de la fonctionnalité ContentDB. Cela inclut la vérification des mises à jour si vous avez installé des packages de ContentDB. Les informations suivantes seront transmises ou incluses :
 
-* IP address
-* Page URL
-* Luanti version
-* Platform and Operating System
+* Adresse IP
+* URL de la page
+* Version de Luanti
+* Plateforme et système d'exploitation
 
-for example:
+Par exemple :
 
 ```
 11.22.33.44 content.minetest.net - [06/July/2024:10:05:00 +0200] "GET /packages/Wuzzy/glitch/releases/18414/download/?reason=new HTTP/2.0" 302 233 "-" "Luanti/5.8.0 (Windows/10.0.19041 x86_64)"
 ```
 
-### How it is used
 
-HTTP requests are logged to aid with debugging, development, and aggregated
-statistics.
+### Utilisation
 
-Requests (such as downloads) are used for aggregated statistics and for
-calculating the popularity of packages. Download counts are shown for each
-package and release, and there are also download graphs available for each
-package.
+Les requêtes HTTP sont enregistrées pour aider au débogage, au développement et aux statistiques agrégées.
 
-Whether an IP address has downloaded a package or release is cached to prevent
-downloads from being counted multiple times per IP address, but this information
-is deleted regularly.
+Les requêtes (comme les téléchargements) sont utilisées pour des statistiques agrégées et pour calculer la popularité des packages. Les comptes de téléchargement sont affichés pour chaque package et chaque version, et des graphiques de téléchargement sont également disponibles.
 
-### Who has access
+L'information concernant si une adresse IP a téléchargé un package ou une version est mise en cache pour éviter de compter plusieurs fois les téléchargements par adresse IP, mais cette information est régulièrement supprimée.
 
-rubenwardy runs ContentDB and has access to the logs. Logs may be shared with
-others to aid with debugging, user support, or combating abuse.
+### Accès aux données
 
-### Period of retention
+rubenwardy gère ContentDB et a accès aux journaux. Les journaux peuvent être partagés avec d'autres pour aider au débogage, au support utilisateur ou à la lutte contre les abus.
 
-Logged HTTP requests are automatically deleted after 14 days.
-Whether an IP address has downloaded a package or release is automatically
-deleted after 14 days.
+### Période de rétention
 
-### Location
+Les requêtes HTTP enregistrées sont automatiquement supprimées après 14 jours.  
+L'information sur les téléchargements par adresse IP est également supprimée après 14 jours.
 
-ContentDB is currently located in Germany and backups are stored within the
-United Kingdom and/or EU. By using this service, you give permission for the
-data to be moved within the United Kingdom and/or EU.
+### Localisation
 
-### Removal requests
+ContentDB est actuellement situé en Allemagne, et les sauvegardes sont stockées au Royaume-Uni et/ou dans l'UE. En utilisant ce service, vous acceptez que les données soient transférées au sein du Royaume-Uni et/ou de l'UE.
 
-See [ContentDB's privacy policy](https://content.minetest.net/privacy_policy/#removal-requests).
+### Demandes de suppression
 
+Voir [la politique de confidentialité de ContentDB](https://content.minetest.net/privacy_policy/#removal-requests).
 
-## Version checking
+## Vérification des versions
 
-### Information collected
+### Informations collectées
 
-When you open Luanti, it may contact www.minetest.net to fetch information
-about the most recent version. The following information will be transferred or
-included:
+Lorsque vous ouvrez Luanti, il peut contacter www.minetest.net pour récupérer des informations sur la version la plus récente. Les informations suivantes seront transmises ou incluses :
 
-* IP address
-* Luanti version
-* Platform and Operating System
+* Adresse IP
+* Version de Luanti
+* Plateforme et système d'exploitation
 
-### How it is used
+### Utilisation
 
-The version information is hosted on GitHub Pages.
-See [About GitHub Pages > Data collection](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection):
+Les informations de version sont hébergées sur GitHub Pages.  
+Voir [À propos de GitHub Pages > Collecte des données](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection) :
 
-> When a GitHub Pages site is visited, the visitor's IP address is logged and
-> stored for security purposes, regardless of whether the visitor has signed
-> into GitHub or not. For more information about GitHub's security practices,
-> see
-> [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+> Lorsqu'un site GitHub Pages est visité, l'adresse IP du visiteur est enregistrée et stockée à des fins de sécurité, que le visiteur soit connecté ou non à GitHub. Pour plus d'informations sur les pratiques de sécurité de GitHub, voir
+> [Déclaration de confidentialité de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
+## Jeu en ligne
 
-## Online play
+Luanti vous permet de jouer en ligne sur des serveurs multijoueurs. Notez que ces serveurs sont gérés par des tiers. Luanti agit comme un navigateur web se connectant à un site. Veuillez consulter la politique de confidentialité du serveur de jeu.
 
-Luanti allows you to play online on multiplayer game servers. Please note that
-game servers are third-party, Luanti acts like a web browser connecting to a
-website. Therefore, please refer to the game server's privacy policy.
+## Tiers
 
+Nous ne partageons aucune information personnelle avec des tiers.
 
-## Third parties
+## Modifications futures de la politique de confidentialité
 
-We do not share any personal information with third parties.
-
-
-## Future changes to privacy policy
-
-We will alert any future changes to the privacy policy via posts on the
-Luanti forum and by the last updated date at the top of this page.
+Nous informerons des futures modifications de cette politique de confidentialité via des publications sur le forum Luanti et par la date de dernière mise à jour en haut de cette page.

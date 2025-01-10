@@ -1,56 +1,55 @@
-# [Luanti Website](https://www.minetest.net)
+# [Site Web francophone de Luanti](https://www.luanti.fr)
 
-[![Build status](https://github.com/minetest/minetest.github.io/workflows/build/badge.svg)](https://github.com/minetest/minetest.github.io/actions)\
-The official Luanti website, living at [www.minetest.net](https://www.minetest.net).
+[![Statut de la build](https://github.com/minetest/minetest.github.io/workflows/build/badge.svg)](https://github.com/minetest/minetest.github.io/actions)\
+Le site officiel de Luanti, accessible à l'adresse [www.luanti.fr](https://www.luanti.fr).
 
-## Features
+## Fonctionnalités
 
-- Uses the [Bulma](https://bulma.io/) CSS framework.
-- Uses modern Web design techniques: `rem` units, `hsl` colors.
-- Responsive site and favicon.
+- Utilise le framework CSS [Bulma](https://bulma.io/).
+- Adopte des techniques modernes de conception Web : unités `rem`, couleurs `hsl`.
+- Site réactif et favicon inclus.
 
-## Development workflow
+## Flux de développement
 
-This site uses the [Jekyll](https://jekyllrb.com) static site generator.
+Ce site utilise le générateur de sites statiques [Jekyll](https://jekyllrb.com).
 
-- Ensure you have [Ruby](https://www.ruby-lang.org/) 2.4 or later installed.
-- Install [Bundler](https://bundler.io/) by running `gem install bundler`.
-  - On Linux, use a Ruby version manager such as [rbenv](https://github.com/rbenv/rbenv)
-    to easily switch to any version and avoid permission issues.
-- Install dependencies by running `bundle install`.
-- Use `bundle exec jekyll serve` to automatically build the site
-  and serve it locally.
+- Assurez-vous d'avoir installé [Ruby](https://www.ruby-lang.org/) version 2.4 ou supérieure.
+- Installez [Bundler](https://bundler.io/) en exécutant `gem install bundler`.
+  - Sur Linux, utilisez un gestionnaire de version Ruby tel que [rbenv](https://github.com/rbenv/rbenv)
+    pour changer facilement de version et éviter les problèmes de permissions.
+- Installez les dépendances en exécutant `bundle install`.
+- Utilisez `bundle exec jekyll serve` pour construire automatiquement le site
+  et le servir localement.
 
-You can also use the provided [Dev Container](https://containers.dev/) configuration to make it easier.
+Vous pouvez également utiliser la configuration fournie pour un [conteneur de développement](https://containers.dev/) afin de simplifier le processus.
 
-### Browser support
+### Compatibilité des navigateurs
 
-When working on new features, keep in mind this website only supports
-*evergreen browsers*:
+Lors de l'ajout de nouvelles fonctionnalités, gardez à l'esprit que ce site prend uniquement en charge les *navigateurs modernes* :
 
-- Chrome (two most recent versions)
-- Edge (two most recent versions)
-- Firefox (two most recent versions + latest ESR version)
-- Opera (two most recent versions)
-- Safari (two most recent versions)
+- Chrome (les deux versions les plus récentes)
+- Edge (les deux versions les plus récentes)
+- Firefox (les deux versions les plus récentes + la dernière version ESR)
+- Opera (les deux versions les plus récentes)
+- Safari (les deux versions les plus récentes)
 
-Internet Explorer isn't supported.
+Internet Explorer n'est pas pris en charge.
 
-## License
+## Licence
 
-Copyright © 2015-2020 Hugo Locurcio and contributors
+Copyright © 2015-2020 Hugo Locurcio et ses contributeurs.
 
-Unless otherwise specified, code is licensed under the MIT license.
-Media (except gallery) and content are licensed under
+Sauf indication contraire, le code est sous licence MIT.  
+Les médias (sauf la galerie) et le contenu sont sous licence  
 [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/).
 
-Gallery screenshots are by various authors and depict various content
+Les captures d'écran de la galerie sont réalisées par différents auteurs et illustrent divers contenus :
 
-- 1: Backrooms Test (Sumianvoice)
-- 2: Soothing32 (Zughy)
-- 3: i3 (Jean-Patrick Guerrero)
-- 4: Mineclone2 (Wuzzy)
-- 5: Steampunk Blimp (APercy)
-- 6: Animalia (ElCeejo)
-- 7: RPG16 texture pack (Hugues Ross)
-- 8: Minetest Game
+1. Backrooms Test (Sumianvoice)  
+2. Soothing32 (Zughy)  
+3. i3 (Jean-Patrick Guerrero)  
+4. Mineclone2 (Wuzzy)  
+5. Steampunk Blimp (APercy)  
+6. Animalia (ElCeejo)  
+7. RPG16 texture pack (Hugues Ross)  
+8. Minetest Game

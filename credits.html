@@ -1,6 +1,6 @@
 ---
-title: Credits
-description: Key contributors and developers behind the Luanti project
+title: Crédits
+description: Principaux contributeurs et développeurs du projet Luanti
 layout: default
 redirect_from:
 - /credits.html
@@ -12,56 +12,54 @@ redirect_from:
     <div class="columns is-centered">
       <div class="column is-10 is-9-desktop is-8-widescreen is-7-fullhd content">
 
-        <h1>Credits</h1>
+        <h1>Crédits</h1>
 
-        <h2>Core Team</h2>
-        <p>
-          The core team consists of contributors with special privileges and
-          responsibilities.
-        </p>
-        <p>
-          Core developers decide what can be added to Luanti by voting for
-          and against pull requests. They also have commit access to the Luanti
-          team's repositories on GitHub.
-          <a href="https://dev.minetest.net/Organisation">Learn more.</a>
-        </p>
-
-        <h3>Active Core Developers</h3>
-        {% include credits_list.html people=site.data.credits.core_developers %}
-
-        <h3>Active Core Team Members</h3>
-        {% include credits_list.html people=site.data.credits.core_team %}
-
-        <h3>Previous Core Developers</h3>
-        {% include credits_list.html people=site.data.credits.previous_core_developers %}
-
-        <hr>
-        <h2>Contributors</h2>
-        <p>
-          Also see the complete lists of
-          <a href="https://github.com/minetest/minetest/graphs/contributors">Luanti</a> and
-          <a href="https://github.com/minetest/minetest_game/graphs/contributors">Minetest Game</a>
-          contributors.
-        </p>
-
-        <h3>Active</h3>
-        {% include credits_list.html people=site.data.credits.contributors %}
-
-        <h3>Previous</h3>
-        {% include credits_list.html people=site.data.credits.previous_contributors %}
-
-        <p class="has-text-weight-bold">
-          More information can be found at
-          {% comment %}
-          OpenHub seems to be flaky, so ignore it in HTMLProofer link checking.
-          {% endcomment %}
-          <a href="https://www.openhub.net/p/minetest-c55" data-proofer-ignore>Open Hub</a>.
-        </p>
-        <p>
-          Want to <a href="{{ '/get-involved/#contribute' | relative_url }}">contribute</a>?
-        </p>
-
-      </div>
-    </div>
-  </div>
-</section>
+        <section class="section">
+          <div class="container content">
+        
+            <h2>Équipe de base</h2>
+            <p>
+              L'équipe de base est composée de contributeurs disposant de privilèges et de responsabilités spécifiques.
+            </p>
+            <p>
+              Les développeurs principaux décident de ce qui peut être ajouté à Luanti en votant pour ou contre les pull requests. Ils ont également un accès direct aux dépôts de l'équipe Luanti sur GitHub.
+              <a href="https://dev.minetest.net/Organisation">En savoir plus.</a>
+            </p>
+        
+            <h3>Développeurs principaux actifs</h3>
+            {% include credits_list.html people=site.data.credits.core_developers %}
+        
+            <h3>Membres actifs de l'équipe de base</h3>
+            {% include credits_list.html people=site.data.credits.core_team %}
+        
+            <h3>Anciens développeurs principaux</h3>
+            {% include credits_list.html people=site.data.credits.previous_core_developers %}
+        
+            <hr>
+            <h2>Contributeurs</h2>
+            <p>
+              Consultez également les listes complètes des contributeurs à
+              <a href="https://github.com/minetest/minetest/graphs/contributors">Luanti</a> et au
+              <a href="https://github.com/minetest/minetest_game/graphs/contributors">jeu Minetest</a>.
+            </p>
+        
+            <h3>Actifs</h3>
+            {% include credits_list.html people=site.data.credits.contributors %}
+        
+            <h3>Précédents</h3>
+            {% include credits_list.html people=site.data.credits.previous_contributors %}
+        
+            <p class="has-text-weight-bold">
+              Plus d'informations disponibles sur
+              {% comment %}
+              OpenHub semble parfois instable, donc ignoré dans la vérification des liens par HTMLProofer.
+              {% endcomment %}
+              <a href="https://www.openhub.net/p/minetest-c55" data-proofer-ignore>Open Hub</a>.
+            </p>
+            <p>
+              Vous souhaitez <a href="{{ '/get-involved/#contribute' | relative_url }}">contribuer</a> ?
+            </p>
+        
+          </div>
+        </section>
+        

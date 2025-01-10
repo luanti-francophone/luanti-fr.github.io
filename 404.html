@@ -1,16 +1,16 @@
 ---
-title: Page not found
-jumbotron: credits
+title: Page non trouvée
+jumbotron: crédits
 layout: default
 permalink: 404.html
 ---
 
 <script>
-  // Forum URL redirection
+  // Redirection URL du forum
   const urlParams = new URLSearchParams(window.location.search.slice(1));
 
   if (urlParams.has('id')) {
-    // Convert to a number for security (only numeric values make sense anyway)
+    // Conversion en nombre pour des raisons de sécurité (seules les valeurs numériques sont valides)
     const topicId = Number(urlParams.get('id'));
     window.location.replace(`https://forum.minetest.net/viewtopic.php?id=${topicId}`);
   }
@@ -25,17 +25,17 @@ permalink: 404.html
           <div class="has-text-centered">
             <img
               src="{{ '/media/unknown_node.jpg' | relative_url }}"
-              alt="Unknown node"
+              alt="Nœud inconnu"
             >
 
-            <h2>Sorry, we could not find that page!</h2>
+            <h2>Désolé, nous n'avons pas trouvé cette page !</h2>
             <p>
-              <a href="{{ '/' | relative_url }}" class="has-text-weight-bold">Go to the homepage</a>
+              <a href="{{ '/' | relative_url }}" class="has-text-weight-bold">Retour à la page d'accueil</a>
             </p>
             <p>
-              Please report any broken links on the
+              Veuillez signaler tout lien cassé sur la
               <a href="https://github.com/minetest/minetest.github.io/issues">
-                issues page for this website</a>.
+                page des problèmes de ce site</a>.
             </p>
           </div>
         </div>
