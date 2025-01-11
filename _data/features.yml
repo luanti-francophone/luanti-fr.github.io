@@ -1,61 +1,61 @@
 players:
-  title: Players
+  title: Joueurs
   features:
-    - title: Choose from Multiple Games
+    - title: Choisissez parmi plusieurs jeux
       description: >
-        There are many games to choose from. You could survive in a harsh
-        environment, build creatively, or fight other players.
-        Just [download a game](https://content.minetest.net/packages/?type=game)
-        or connect to a server.
+        Il existe de nombreux jeux parmi lesquels choisir. Vous pouvez survivre dans un environnement
+        hostile, construire de manière créative ou combattre d'autres joueurs.
+        Il vous suffit de [télécharger un jeu](https://content.minetest.net/packages/?type=game)
+        ou de vous connecter à un serveur.
 
-    - title: Enormous Maps
+    - title: Cartes énormes
       description: >
-        With 62,000 × 62,000 × 62,000 blocks, there's no running out of space.
-        You can mine 31,000 blocks down, or build 31,000 blocks up.
+        Avec des dimensions de 62 000 × 62 000 × 62 000 blocs, l'espace ne manquera jamais.
+        Vous pouvez miner 31 000 blocs vers le bas, ou construire 31 000 blocs vers le haut.
 
-    - title: Multiplayer Support
+    - title: Support multijoueur
       description: >
-        Play by yourself, locally with your friends, or online with
-        dozens of players on a server.
+        Jouez seul, en local avec vos amis, ou en ligne avec
+        des dizaines de joueurs sur un serveur.
 
-    - title: Texture Packs
+    - title: Packs de textures
       description: >
-        Not happy with the look of the textures?
-        [Change them!](https://content.minetest.net/packages/?type=txp)
+        Pas satisfait de l'apparence des textures ?
+        [Changez-les !](https://content.minetest.net/packages/?type=txp)
 
-    - title: Beautiful Map Generators
+    - title: Générateurs de cartes magnifiques
       description: >
-        Choose from many different fast map generators included in the engine,
-        or install one as a mod.
+        Choisissez parmi de nombreux générateurs de cartes rapides inclus dans le moteur,
+        ou installez-en un en tant que mod.
 
 developers:
-  title: Developers
+  title: Développeurs
   features:
-    - title: Make a Game
+    - title: Créez un jeu
       description: >
-        Create your own voxel game using our
-        [Lua API](https://dev.minetest.net/Modding_Intro).
-        No need to worry about tricky voxel rendering or networking;
-        instead, write scripts to add items and control game play.
+        Créez votre propre jeu voxel en utilisant notre
+        [API Lua](https://dev.minetest.net/Modding_Intro).
+        Pas besoin de vous soucier du rendu voxel complexe ou du réseau ;
+        écrivez simplement des scripts pour ajouter des objets et contrôler le gameplay.
 
-    - title: Modding API
+    - title: API de modding
       description: >
-        Use the same Lua API to make mods for any Luanti-based game.
-        Publish your mods on [ContentDB](https://content.minetest.net),
-        and contribute to others' mods.
+        Utilisez la même API Lua pour créer des mods pour n'importe quel jeu basé sur Luanti.
+        Publiez vos mods sur [ContentDB](https://content.minetest.net),
+        et contribuez aux mods des autres.
 
-    - title: Large Collection of Existing Mods
+    - title: Grande collection de mods existants
       description: >
-        There are over 1100 open source mods on
+        Il y a plus de 1100 mods open source sur
         [ContentDB](https://content.minetest.net/),
-        which are ready to be used, adapted or learned from.
+        qui sont prêts à être utilisés, adaptés ou appris.
 
-    - title: Friendly Community
+    - title: Communauté conviviale
       description: >
-        You can find help with any problems [from our community](/get-involved/).
+        Vous pouvez obtenir de l'aide pour n'importe quel problème [de notre communauté](/get-involved/).
 
     - title: Open Source
       description: >
-        The engine is open source and transparently developed.
-        [Submit an issue](https://github.com/minetest/minetest/issues)
-        for anything you're missing, or get the source code and dig into it yourself.
+        Le moteur est open source et développé de manière transparente.
+        [Soumettez un problème](https://github.com/minetest/minetest/issues)
+        pour tout ce qui vous manque, ou récupérez le code source et explorez-le vous-même.
