@@ -1,32 +1,32 @@
 resources:
-  - title: Flyer / Poster
+  - title: Flyer / Affiche
     author: Zughy
     img: flyer.png
-    para: A flyer to promote Minetest.
+    para: Un flyer pour promouvoir Minetest.
     url: https://gitlab.com/marco_a/minetest-flyer-poster
 
-  - title: Education Leaflet
-    author: Lemente and Thomate
+  - title: Prospectus éducatif
+    author: Lemente et Thomate
     img: edu_leaflet.png
     fit: cover
-    para: A leaflet to promote Minetest in Education.
+    para: Un prospectus pour promouvoir Minetest dans l'éducation.
     url: https://gitlab.com/rubenwardy/fosdem24/-/tree/main/edu_leaflet?ref_type=heads
 
-  - title: Roller banner
-    author: Thomate and Lemente
+  - title: Banderole déroulante
+    author: Thomate et Lemente
     img: roller_banner.jpg
     fit: cover
-    para: A rollup banner to use at conferences
+    para: Une banderole à utiliser lors de conférences.
     url: https://gitlab.com/rubenwardy/fosdem24/-/tree/main/rollup_banner?ref_type=heads
 
   - title: Stickers
-    author: erlehmann and Lemente
+    author: erlehmann et Lemente
     img: sticker.png
-    para: A Luanti sticker.
+    para: Un sticker Luanti.
     url: https://gitlab.com/rubenwardy/fosdem24/-/tree/main/stickers?ref_type=heads
 
-  - title: Presentation Flipbook
+  - title: Flipbook de présentation
     author: rubenwardy
     img: showcase.png
-    para: A showcase of the content Minetest has to offer.
+    para: Une vitrine du contenu que Minetest a à offrir.
     url: https://gitlab.com/rubenwardy/fosdem24/-/tree/main/flipbook?ref_type=heads

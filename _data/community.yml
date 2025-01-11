@@ -10,6 +10,6 @@
   url: https://wiki.minetest.net/IRC
   icon: irc.svg
 
-- name: Servers
+- name: Serveurs
   url: /servers/
   icon: servers.svg
