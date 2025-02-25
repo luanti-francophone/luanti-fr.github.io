@@ -1,7 +1,8 @@
-# [Site Web francophone de Luanti](https://www.luanti.fr)
+# [Site Web francophone de Luanti](https://www.luanti.fr) basé sur le site officiel
 
-[![Statut de la build](https://github.com/minetest/minetest.github.io/workflows/build/badge.svg)](https://github.com/minetest/minetest.github.io/actions)\
-Le site officiel de Luanti, accessible à l'adresse [www.luanti.fr](https://www.luanti.fr).
+[![Statut de la build](https://github.com/luanti-org/luanti-org.github.io/workflows/build/badge.svg)](https://github.com/luanti-org/luanti-org.github.io/actions)\
+
+Le site officiel de Luanti, accessible en français à l'adresse [www.luanti.fr](https://www.luanti.fr) et en version originale à l'adresse [www.luanti.org](https://www.luanti.org).
 
 ## Fonctionnalités
 

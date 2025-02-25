@@ -18,17 +18,17 @@ redirect_from:
     <h2>Premiers pas</h2>
     <p>
       Vous êtes un nouvel utilisateur ?
-      Consultez nos pages <a href="https://wiki.minetest.net/Getting_Started">Premiers pas</a>, 
-      <a href="https://wiki.minetest.net/FAQ">FAQ</a> et 
-      <a href="https://wiki.minetest.net/Tutorials">Tutoriels</a> sur le wiki.<br>
-      Sinon, vous pouvez jeter un œil au <a href="https://dev.minetest.net/Changelog#5.9.1_.E2.86.92_5.10.0">journal des modifications</a>.
+      Consultez nos pages <a href="https://wiki.luanti.org/Getting_Started">Premiers pas</a>, 
+      <a href="https://wiki.luanti.org/FAQ">FAQ</a> et 
+      <a href="https://wiki.luanti.org/Tutorials">Tutoriels</a> sur le wiki.<br>
+      Sinon, vous pouvez jeter un œil au <a href="https://dev.luanti.org/Changelog#5.9.1_.E2.86.92_5.10.0">journal des modifications</a>.
     </p>
     <p>
       Vous pourriez également vouloir explorer quelques 
-      <a href="https://content.minetest.net/packages/?type=game">jeux</a>.
+      <a href="https://content.luanti.org/packages/?type=game">jeux</a>.
       Les jeux définissent le gameplay de base du moteur, en utilisant des scripts Lua. 
       Chaque jeu propose des objectifs différents, comme la survie, la construction ou le PvP. 
-      Vous pouvez ensuite ajouter des <a href="https://content.minetest.net/packages/?type=mod">modifications (mods)</a> 
+      Vous pouvez ensuite ajouter des <a href="https://content.luanti.org/packages/?type=mod">modifications (mods)</a> 
       pour personnaliser davantage votre expérience.
     </p>
 
@@ -42,24 +42,24 @@ redirect_from:
         </p>
         <ul>
           <li class="has-text-weight-bold">
-            <a href="https://github.com/minetest/minetest/releases/download/5.10.0/luanti-5.10.0-win64.zip">
-              Luanti 5.10.0 - version portable, 64 bits (recommandé)
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.11.0/luanti-5.11.0-win64.zip">
+              Luanti 5.11.0 - version portable, 64 bits (recommandé)
             </a>
           </li>
           <li>
-            <a href="https://github.com/minetest/minetest/releases/download/5.10.0/luanti-5.10.0-win32.zip">
-              Luanti 5.10.0 - version portable, 32 bits
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.11.0/luanti-5.11.0-win32.zip">
+              Luanti 5.11.0 - version portable, 32 bits
             </a>
           </li>
         </ul>
         <p>
           Besoin d'aide ? Consultez les
-          <a href="https://wiki.minetest.net/Getting_Started#Windows">instructions pour Windows</a>.
+          <a href="https://wiki.luanti.org/Getting_Started#Windows">instructions pour Windows</a>.
         </p>
         <p>
           Vous pouvez également obtenir la version de développement la plus récente via les
-          <a href="https://forum.minetest.net/viewforum.php?f=42">builds communautaires</a>.
-          Ces versions incluent de nouvelles fonctionnalités mais peuvent être moins stables.
+          <a href="https://forum.luanti.org/viewforum.php?f=42">builds communautaires</a>.
+          Ces versions incluent de nouvelles fonctionnalités (mais peuvent être moins stables).
         </p>
       </div>
 
@@ -73,7 +73,7 @@ redirect_from:
           <img style="max-height: 7em;" alt="Disponible sur F-Droid" src="{{ '/media/fdroid-badge.png' | relative_url }}"/>
         </a>
 
-        <p>
+      <!-- <p>
           Vous pouvez aussi télécharger directement l'APK :
         </p>
         <ul>
@@ -87,7 +87,7 @@ redirect_from:
             <a href="https://github.com/minetest/minetest/releases/download/5.10.0/luanti-5.10.0-x86_64.apk">64 bits</a> - 
             <a href="https://github.com/minetest/minetest/releases/download/5.10.0/luanti-5.10.0-x86.apk">32 bits</a>
           </li>
-        </ul>
+        </ul> -->
         <p>
           <strong>Note :</strong> Nous déconseillons d'utiliser les versions non officielles disponibles sur le Play Store.
           Elles peuvent contenir des publicités excessives ou des logiciels espions, ou être distribuées sous des termes propriétaires.
@@ -115,14 +115,66 @@ redirect_from:
           <!-- More distributions as needed -->
         </ul>
       </div>
-      
-      <!-- Additional sections for FreeBSD, macOS, and source code translations -->
+
+      <div class="column is-12-tablet is-6-desktop">
+        <h2>FreeBSD</h2>
+        <h3>Gestionnaire de paquets</h3>
+        <p>Sur FreeBSD 9.1 et versions plus récentes, vous pouvez utiliser les paquets officiels précompilés :
+            <code>pkg install minetest</code></p>
+        <h3>Compilation via les ports</h3>
+        <p>Vous pouvez également compiler Luanti et choisir facilement les options de compilation grâce aux dialogues des ports FreeBSD.</p>
+        <pre>
+    cd /usr/ports/games/minetest
+    make install
+        </pre>
     </div>
-    <hr>
-    <p>
-      Besoin d'une version plus ancienne ? Consultez la 
-      <a href="https://github.com/minetest/minetest/releases">liste des versions</a> sur GitHub !
-    </p>
-  </div>
+    
+    <div class="column is-12-tablet is-6-desktop">
+        <h2>macOS</h2>
+        <p>macOS 11.3 ou une version plus récente est recommandé. Peut fonctionner sur des versions plus anciennes si compilé à partir des sources.</p>
+        <ul>
+            <li class="has-text-weight-bold">
+                Signé pour Apple Silicon -
+                <a href="https://github.com/luanti-org/luanti/releases/download/5.11.0/luanti_5.11.0-macos11.3_arm64.zip">
+                    Luanti 5.11.0 - Application
+                </a>
+            </li>
+            <li class="has-text-weight-bold">
+                Signé pour Intel 64 bits -
+                <a href="https://github.com/luanti-org/luanti/releases/download/5.11.0/luanti_5.11.0-macos11.3_x86_64_flag_O1.zip">
+                    Luanti 5.11.0 - Application
+                </a>
+            </li>
+            <li>
+                Utilisez <a href="https://brew.sh/">Homebrew</a> pour obtenir la version stable :<br>
+                <code>brew install minetest</code>
+            </li>
+            <li>
+                <a href="https://www.macports.org/">MacPorts</a> propose également un port de la version stable :<br>
+                <code>sudo port install minetest</code>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="column is-12-tablet is-6-desktop">
+        <h2>Code source</h2>
+        <p>
+            Obtenez la dernière version <a href="https://github.com/luanti-org/luanti/tree/stable-5">stable</a>
+            ou <a href="https://github.com/luanti-org/luanti">en développement</a> sur
+            <a href="https://github.com/luanti-org">GitHub</a>.
+        </p>
+        <p>
+            Consultez le <a href="https://github.com/luanti-org/luanti/blob/master/README.md">README</a>
+            pour plus de détails sur la compilation de Luanti à partir des sources.
+        </p>
+    </div>
+    
+    <div>
+        <hr>
+        <p>
+            Vous cherchez des versions plus anciennes ? Consultez la <a href="https://github.com/luanti-org/luanti/releases">liste des versions</a> sur GitHub !
+        </p>
+    </div>    
+
 </section>
 

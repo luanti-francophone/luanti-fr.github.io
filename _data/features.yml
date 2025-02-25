@@ -5,7 +5,7 @@ players:
       description: >
         Il existe de nombreux jeux parmi lesquels choisir. Vous pouvez survivre dans un environnement
         hostile, construire de manière créative ou combattre d'autres joueurs.
-        Il vous suffit de [télécharger un jeu](https://content.minetest.net/packages/?type=game)
+        Il vous suffit de [télécharger un jeu](https://content.luanti.org/packages/?type=game)
         ou de vous connecter à un serveur.
 
     - title: Cartes énormes
@@ -21,7 +21,7 @@ players:
     - title: Packs de textures
       description: >
         Pas satisfait de l'apparence des textures ?
-        [Changez-les !](https://content.minetest.net/packages/?type=txp)
+        [Changez-les !](https://content.luanti.org/packages/?type=txp)
 
     - title: Générateurs de cartes magnifiques
       description: >
@@ -34,20 +34,20 @@ developers:
     - title: Créez un jeu
       description: >
         Créez votre propre jeu voxel en utilisant notre
-        [API Lua](https://dev.minetest.net/Modding_Intro).
+        [API Lua](https://dev.luanti.org/Modding_Intro).
         Pas besoin de vous soucier du rendu voxel complexe ou du réseau ;
         écrivez simplement des scripts pour ajouter des objets et contrôler le gameplay.
 
     - title: API de modding
       description: >
         Utilisez la même API Lua pour créer des mods pour n'importe quel jeu basé sur Luanti.
-        Publiez vos mods sur [ContentDB](https://content.minetest.net),
+        Publiez vos mods sur [ContentDB](https://content.luanti.org),
         et contribuez aux mods des autres.
 
     - title: Grande collection de mods existants
       description: >
         Il y a plus de 1100 mods open source sur
-        [ContentDB](https://content.minetest.net/),
+        [ContentDB](https://content.luanti.org/),
         qui sont prêts à être utilisés, adaptés ou appris.
 
     - title: Communauté conviviale
@@ -57,5 +57,5 @@ developers:
     - title: Open Source
       description: >
         Le moteur est open source et développé de manière transparente.
-        [Soumettez un problème](https://github.com/minetest/minetest/issues)
+        [Soumettez un problème](https://github.com/luanti-org/luanti/issues)
         pour tout ce qui vous manque, ou récupérez le code source et explorez-le vous-même.

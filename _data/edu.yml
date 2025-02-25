@@ -8,7 +8,7 @@ why:
 - title: Modulaire & Personnalisable
   para: >-
     Accédez à [une bibliothèque de plus de 2000 mods gratuits et open source
-    développés par la communauté](https://content.minetest.net/)
+    développés par la communauté](https://content.luanti.org/)
     pour personnaliser votre environnement EDU, et un système de script accessible
     pour vous et vos étudiants afin de
     [créer le vôtre](https://rubenwardy.com/minetest_modding_book/) !
@@ -145,7 +145,7 @@ resources:
   para: >-
     Une mine d'informations, en plusieurs langues, avec un espace dédié à
     l'éducation. Nous cherchons encore des contributions !
-  url: https://wiki.minetest.net/MinetestEDU
+  url: https://wiki.luanti.orgt/MinetestEDU
 
 - title: ContentDB
   author: Communauté Luanti
@@ -154,7 +154,7 @@ resources:
     Une base de données où les moddeurs peuvent soumettre leurs mods, jeux et packs de textures
     pour les rendre facilement accessibles. Elle comprend des fonctionnalités comme un système de tags,
     des avis et plus encore.
-  url:  https://content.minetest.net/packages/?tag=education
+  url:  https://content.luanti.org/packages/?tag=education
 
 - title: Hébergement de serveurs BLOCKALOT
   author: Landesmedienzentrum Baden-Württemberg (LMZ)
@@ -177,7 +177,7 @@ resources:
   author: Communauté Luanti
   tag: Pour héberger un serveur soi-même
   para: Les bases pour héberger votre monde multijoueur localement ou en ligne.
-  url: https://wiki.minetest.net/Setting_up_a_server
+  url: https://wiki.luanti.org/Setting_up_a_server
 
 - title: Livre de modding Luanti
   author: rubenwardy
