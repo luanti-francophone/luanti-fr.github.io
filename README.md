@@ -14,7 +14,7 @@ Le site officiel de Luanti, accessible en français à l'adresse [www.luanti.fr]
 
 Ce site utilise le générateur de sites statiques [Jekyll](https://jekyllrb.com).
 
-- Assurez-vous d'avoir installé [Ruby](https://www.ruby-lang.org/) version 2.4 ou supérieure.
+- Assurez-vous d'avoir installé the specified [Ruby](https://www.ruby-lang.org/) version [version](.ruby-version) ou supérieure.
 - Installez [Bundler](https://bundler.io/) en exécutant `gem install bundler`.
   - Sur Linux, utilisez un gestionnaire de version Ruby tel que [rbenv](https://github.com/rbenv/rbenv)
     pour changer facilement de version et éviter les problèmes de permissions.

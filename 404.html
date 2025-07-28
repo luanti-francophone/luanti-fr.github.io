@@ -12,7 +12,7 @@ permalink: 404.html
   if (urlParams.has('id')) {
     // Conversion en nombre pour des raisons de sécurité (seules les valeurs numériques sont valides)
     const topicId = Number(urlParams.get('id'));
-    window.location.replace(`https://forum.luanti.org/viewtopic.php?id=${topicId}`);
+    window.location.replace(`https://forum.luanti.org/viewtopic.php?t=${topicId}`);
   }
 </script>
 

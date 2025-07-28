@@ -34,7 +34,7 @@ developers:
     - title: Créez un jeu
       description: >
         Créez votre propre jeu voxel en utilisant notre
-        [API Lua](https://dev.luanti.org/Modding_Intro).
+        [API Lua](https://docs.luanti.org/for-creators/).
         Pas besoin de vous soucier du rendu voxel complexe ou du réseau ;
         écrivez simplement des scripts pour ajouter des objets et contrôler le gameplay.
 

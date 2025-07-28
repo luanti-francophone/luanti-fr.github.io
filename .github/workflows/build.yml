@@ -11,10 +11,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
+    - name: Read VERSION file
+      id: getversion
+      run: echo "version=$(cat .ruby-version)" >> $GITHUB_OUTPUT
     - name: Install Ruby
       uses: ruby/setup-ruby@master
       with:
-        ruby-version: 3.0.5
+        ruby-version: ${{ steps.getversion.outputs.version }}
     - name: Install dependencies
       run: |
        sudo apt-get update
@@ -25,5 +28,5 @@ jobs:
       run: |
        bundle exec jekyll build
        bundle exec htmlproofer '_site/' \
-         --allow-hash-href --check-html --http-status-ignore 0,403 \
-         --url-ignore '/.*good\+first\+issue.*/,/.*wiki\.minetest\.net.*/,/.*dev\.minetest\.net.*/'
+         --allow-hash-href --ignore-status-codes 0,403 \
+         --ignore-urls '/.*good\+first\+issue.*/,/.*matrix\.to.*/'

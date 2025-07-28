@@ -37,7 +37,7 @@ projects:
     pays différents ont répliqué des sites patrimoniaux (comme Notre-Dame de
     Paris, le château médiéval du Louvre ou la citadelle de Besançon), les ont placés sur
     une chronologie interactive et ont fait des visites et des présentations dans le monde virtuel.
-  url: http://minetest.wp.ac-dijon.fr/minestory-frise-immersive-de-sites-du-patrimoine-architectural/
+  url: https://minetest.wp.ac-dijon.fr/minestory-frise-immersive-de-sites-du-patrimoine-architectural/
 
 - title: Minetest Classroom
   author: University of British Columbia – Paul Pickell
@@ -137,7 +137,7 @@ resources:
   para: >-
     Un post-mortem en 3 parties basé sur l'expérience de l'auteur utilisant Minetest dans une
     école maternelle.
-  url: http://teachersqueaks.blogspot.co.za/2016/08/minewhat-rolling-out-minetest-in-pre.html
+  url: https://teachersqueaks.blogspot.co.za/2016/08/minewhat-rolling-out-minetest-in-pre.html
 
 - title: Wiki Luanti (page Édu)
   author: Communauté Luanti
@@ -145,7 +145,7 @@ resources:
   para: >-
     Une mine d'informations, en plusieurs langues, avec un espace dédié à
     l'éducation. Nous cherchons encore des contributions !
-  url: https://wiki.luanti.orgt/MinetestEDU
+  url: https://docs.luanti.orgt/about/luanti-edu/
 
 - title: ContentDB
   author: Communauté Luanti
@@ -177,7 +177,7 @@ resources:
   author: Communauté Luanti
   tag: Pour héberger un serveur soi-même
   para: Les bases pour héberger votre monde multijoueur localement ou en ligne.
-  url: https://wiki.luanti.org/Setting_up_a_server
+  url: https://docs.luanti.org/for-server-hosts/setup/
 
 - title: Livre de modding Luanti
   author: rubenwardy
